@@ -7,7 +7,7 @@ api_version: 1
 handlers:
 # Endpoints handler
 - url: /_ah/spi/.*
-  script: api.application
+  script: hd-events-api.application
 
 libraries:
 # Needed for endpoints/users_id_token.py.
