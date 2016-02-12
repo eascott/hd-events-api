@@ -19,11 +19,11 @@
  * You can remove unwanted icons from the sidebar using the "unlock from
    sidebar" item in the right click menu.
    
- * You can add the chromium browser using the "software center" icon.
+ * chromium browser is installed but needs to be accessed via the search icon.
   
  * A shutdown from the desktop is as good as a vagrant halt but...
  
- * A restart is not the equivalent of a vagrant reload cycle since a 
+ * ..a restart is not the equivalent of a vagrant reload cycle since a 
    desktop initiated restart will result in a loss of the /vagrant 
    shared file and lot'sa stuff will break. This is especially important
    to remember because the OS can and will initiate a restart, sometimes 
@@ -40,13 +40,13 @@
  
  * The password for the Ubuntu desktop is 'vagrant'
  
- * To start the environment:  sudo vagrant up
+ * To start the environment:  vagrant up
   
- * To open a shell into the vagrant box:  sudo vagrant ssh
+ * To open a shell into the vagrant box:  vagrant ssh
  
- * To stop the vagrantbox:  sudo vagrant halt
+ * To stop the vagrantbox:  vagrant halt
  
- * To start from scratch:  sudo vagrant destroy
+ * To start from scratch:  vagrant destroy
  
  
  -----------------------------
