@@ -1,3 +1,18 @@
+ Installation
+ 
+ 1)  clone
+ 2)  vagrant up
+ 
+ Running outside the box on a mac
+ 
+ 1)  sh macstart.sh              will run directly
+ 2)  sh macdeploy.sh             will run via the deploy.sh tool
+                                 NB: It does NOT  deploy to the GAE server
+ 
+ Running outside the box on Windows
+ 
+ Running outside the box on Linux
+ 
  
  NOTES;
  
