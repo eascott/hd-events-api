@@ -18,12 +18,10 @@
    
  * You can remove unwanted icons from the sidebar using the "unlock from
    sidebar" item in the right click menu.
-   
- * chromium browser is installed but needs to be accessed via the search icon.
   
- * A shutdown from the desktop is as good as a vagrant halt but...
+ * A shutdown from the desktop is required before a vagrant halt.
  
- * ..a restart is not the equivalent of a vagrant reload cycle since a 
+ * A restart is not the equivalent of a vagrant reload cycle since a 
    desktop initiated restart will result in a loss of the /vagrant 
    shared file and lot'sa stuff will break. This is especially important
    to remember because the OS can and will initiate a restart, sometimes 
