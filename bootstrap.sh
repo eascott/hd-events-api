@@ -28,7 +28,7 @@ if ! [ -d /vagrant/hd-events ]; then
 	cp -r /vagrant/hd-events/endpoints-proto-datastore/endpoints_proto_datastore /vagrant/hd-events
 fi
 
-chown -R $USER /vagrant
+#chown -R $USER /vagrant
 grep 'if \[ -f ~/.bashrc ]; then' /home/vagrant/.bash_profile || echo -e 'if [ -f ~/.bashrc ]; then\n  . ~/.bashrc\nfi' | tee -a /home/vagrant/.bash_profile
 grep 'PATH=:/vagrant/google_appengine:/vagrant/hd-events' /home/vagrant/.profile || echo 'export PATH=$PATH:/vagrant/google_appengine:/vagrant/hd-events' | tee -a /home/vagrant/.profile
 grep 'PATH=:/vagrant/google_appengine:/vagrant/hd-events' /home/vagrant/.bash_profile || echo 'export PATH=$PATH:/vagrant/google_appengine:/vagrant/hd-events' | tee -a /home/vagrant/.bash_profile
