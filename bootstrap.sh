@@ -4,7 +4,7 @@ sudo apt-get install -y git
 sudo apt-get install -y unzip
 sudo apt-get install -y python-pip
 pip install --upgrade pip setuptools
-sudo apt-get install -y chromium-browser
+#sudo apt-get install -y chromium-browser
 
 if ! [ -d /vagrant/google_appengine ]; then
 	wget https://storage.googleapis.com/appengine-sdks/featured/google_appengine_1.9.27.zip
