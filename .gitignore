@@ -2,4 +2,4 @@ google_appengine
 hd-events
 .bundle
 .vagrant
-package.box
+*.box

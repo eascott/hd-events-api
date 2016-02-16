@@ -3,9 +3,7 @@ hdevents () {
   cd /vagrant/hd-events
 }
 hdevents
-/vagrant/google_appengine/dev_appserver.py /vagrant/hd-events
-
-
+python dev_appserver.py .
 
 
 
